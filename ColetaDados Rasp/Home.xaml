@@ -1,0 +1,74 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:ec="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+    x:Class="ColetaDados_Rasp.Home"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+    	<Grid.ColumnDefinitions>
+    		<ColumnDefinition Width="0*"/>
+    		<ColumnDefinition Width="0*"/>
+    		<ColumnDefinition/>
+    		<ColumnDefinition Width="0*"/>
+    	</Grid.ColumnDefinitions>
+    	<Grid.Background>
+    		<ImageBrush ImageSource="natureza-125.jpg"/>
+    	</Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Content="Conectar" Name="btConectar" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top" Width="229" Click="btnObterDados" Height="163" Grid.RowSpan="2"
+                IsEnabled="False" Style="{StaticResource BotaoArredondado}" FontSize="31" FontFamily="Narkisim" Grid.ColumnSpan="3"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="29,33,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Menu" VerticalAlignment="Top" Height="87" Width="356"
+                   FontSize="48" FontFamily="Narkisim" Grid.ColumnSpan="3" />
+        <Button Name="btRealizar"  Content="Realizar &#xD;&#xA; Leitura" HorizontalAlignment="Left" Margin="239,125,0,0" VerticalAlignment="Top" Width="219" Height="163" Grid.RowSpan="2"
+                IsEnabled="False" Style="{StaticResource BotaoArredondado}" FontSize="31" FontFamily="Narkisim" Grid.Column="2">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <ec:NavigateToPageAction TargetPage="/SelecionarTanque.xaml"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+        
+        <Button Name="btnCadastrar" Content="Cadastrar&#xD;&#xA; Tanques" HorizontalAlignment="Left" Margin="10,324,0,0" VerticalAlignment="Top" Width="229"  Height="163" Grid.RowSpan="2" Click="Button_cadastrar"
+                Style="{StaticResource BotaoArredondado}" FontSize="31" FontFamily="Narkisim" Grid.ColumnSpan="3" Opacity="1" >
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <ec:NavigateToPageAction TargetPage="/CRUD Tanques/CadastrarTanque.xaml"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+        <Button Content="Alterar/Excluir &#xD;&#xA;     Tanques"   Name="btExcluit" HorizontalAlignment="Left" Margin="239,324,0,0" VerticalAlignment="Top" Width="229"  Height="163" Grid.RowSpan="2"
+             IsEnabled="False" Style="{StaticResource BotaoArredondado}" FontSize="31" FontFamily="Narkisim" Grid.Column="2">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <ec:NavigateToPageAction TargetPage="/CRUD Tanques/AlterarExcluirTanques.xaml"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+        <Button Content="Consultar Leituras" Name="btConsultar"  HorizontalAlignment="Left" Margin="10,523,0,0" VerticalAlignment="Top" Width="460"  Height="163" Grid.RowSpan="2"
+               IsEnabled="False" Style="{StaticResource BotaoArredondado}" FontSize="31" FontFamily="Narkisim" Grid.ColumnSpan="3">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <ec:NavigateToPageAction TargetPage="/ConsultarTanque.xaml"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

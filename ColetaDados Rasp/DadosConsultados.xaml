@@ -1,0 +1,54 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="ColetaDados_Rasp.DadosConsultados"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Dados da Leitura" Style="{StaticResource PhoneTextNormalStyle}" FontSize="48" FontFamily="Narkisim" />
+
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="14,10,10,223">
+            <TextBlock Text="Nome do Tanque:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,29,186,277" FontSize="33" FontFamily="Narkisim"/>
+            <TextBlock Text="24/02.2015" x:Name="txtNomeTanque" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,29,10,375" FontSize="33" FontFamily="Narkisim" />
+
+            <TextBlock Text="Data da Leitura:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,72,205,234" FontSize="33" FontFamily="Narkisim" />
+            <TextBlock Text="Data da Leitura:" x:Name="txtData" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,72,0,322" FontSize="33" FontFamily="Narkisim" HorizontalAlignment="Left" Width="142" />
+
+            <TextBlock Text="Hora da Leitura:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,125,205,181" FontSize="33" FontFamily="Narkisim"/>
+            <TextBlock Text="Hora da Leitura:" x:Name="txtHora" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,125,0,277" FontSize="33" FontFamily="Narkisim" />
+
+            <TextBlock Text="Temperatura da Água:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,221,137,180" FontSize="33" FontFamily="Narkisim" />
+            <TextBlock Text="Temperatura da Água:" x:Name="txtTemperatura" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,221,10,178" FontSize="33" FontFamily="Narkisim" />
+
+            <TextBlock Text="Nível de Oxigênio:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,270,186,137" FontSize="33" FontFamily="Narkisim" />
+            <TextBlock Text="Nível de Oxigênio:" x:Name="txtOxigenio" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,270,10,129" FontSize="33" FontFamily="Narkisim" />
+
+            <TextBlock Text="Turbidez:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,324,241,-18" FontSize="33" FontFamily="Narkisim" />
+            <TextBlock Text="Turbidez:" x:Name="txtTurbidez" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,324,10,67" FontSize="33" FontFamily="Narkisim" />
+
+            <TextBlock Text="PH:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,173,241,226" FontSize="33" FontFamily="Narkisim" />
+            <TextBlock Text="PH:" x:Name="txtPh" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,173,0,229" FontSize="33" FontFamily="Narkisim" />
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

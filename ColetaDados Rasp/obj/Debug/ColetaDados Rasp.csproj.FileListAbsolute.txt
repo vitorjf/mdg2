@@ -1,0 +1,60 @@
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\ColetaDados Rasp.dll
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\ColetaDados Rasp.pdb
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\resources.pri
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\AppxManifest.xml
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\ColetaDados Rasp.build.appxrecipe
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\Properties\WMAppManifest.xml
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\AppManifest.xaml
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\ColetaDados_Rasp_Debug_AnyCPU.xap
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\App.g.cs
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\MainPage.g.cs
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\ColetaDados Rasp.g.resources
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\ColetaDados_Rasp.Resources.AppResources.resources
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\ColetaDados Rasp.csproj.GenerateResource.Cache
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\ColetaDados Rasp.dll
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\ColetaDados Rasp.pdb
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\priconfig.xml
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\priconfig.xml.intermediate
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\layout.resfiles
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\layout.resfiles.intermediate
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\resources.resfiles
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\resources.resfiles.intermediate
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\pri.resfiles
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\pri.resfiles.intermediate
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\qualifiers.txt
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\qualifiers.txt.intermediate
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\ProjectArchitectures.txt
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\MDILProjectFiles.xml
+c:\users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\XapCacheFile.xml
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\ColetaDados Rasp.csprojResolveAssemblyReference.cache
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\SelecionarTanque.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\Debug\DadosDaLeitura.g.cs

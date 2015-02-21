@@ -1,0 +1,53 @@
+Deleta um arquivo
+private void btnDelete_dados(object sender, RoutedEventArgs e)
+        {
+            IsolatedStorageFile file = IsolatedStorageFile.GetUserStoreForApplication();
+            file.DeleteFile("teste.txt");
+            file.Dispose();
+            file.Remove();
+            //txtDados.Text = "";
+            MessageBox.Show("arquivo deletado");
+        }
+
+
+ //Click em um item da lista
+   private void Selectionchanged_Eventhandler_of_Listbox(object sender, SelectionChangedEventArgs e)
+        {
+            //Get the data object that represents the current selected item
+            Tanques myobject = (sender as ListBox).SelectedItem as Tanques;
+
+            //Checking whether that it is not null
+            if (myobject != null)
+            {
+                //Ações a executar depois do click em um item da lista
+                // Studentnameblock.Text = myobject.name;
+                //   marksblock.Text = myobject.marks.ToString(); ;
+
+            }
+
+        }
+
+Executa um comando antes da mudança de tela
+        protected override void OnNavigatedFrom(NavigationEventArgs e)
+        {
+            if (dbConn != null)
+            {
+                /// Fecha a conexão com o banco de dados.
+              
+            }
+        }
+
+
+configura o botao de voltar
+protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+{
+   if (MessageBox.Show("Sair do aplicativo?", "Logout", MessageBoxButton.OKCancel) == MessageBoxResult.OK)
+   {
+      //Faça alguma coisa aqui...
+      base.OnBackKeyPress(e);
+   }
+   else
+      e.Cancel = true;
+}
+
+

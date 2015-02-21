@@ -1,0 +1,215 @@
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\App.g.cs
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\DadosDaLeitura.g.cs
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\SelecionarTanque.g.cs
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.g.resources
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\ColetaDados_Rasp.Resources.AppResources.resources
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.csproj.GenerateResource.Cache
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Assets\ApplicationIcon.png
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados Rasp.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados Rasp.pdb
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\resources.pri
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\AppxManifest.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados Rasp.build.appxrecipe
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Properties\WMAppManifest.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\AppManifest.xaml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados_Rasp_Debug_ARM.xap
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Advertising.Mobile.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Advertising.Mobile.UI.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Advertising.Mobile.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Sqlite.winmd
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\System.Windows.Interactivity.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\Sqlite.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\Bin\ARM\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.pdb
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\priconfig.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\layout.resfiles
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\layout.resfiles.intermediate
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\resources.resfiles
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\pri.resfiles
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\qualifiers.txt
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\MDILProjectFiles.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\XapCacheFile.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.csprojResolveAssemblyReference.cache
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\Home.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\ConsultarTanque.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\ConsultarDataDados.g.cs
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\DadosConsultados.g.cs
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\CRUD Tanques\ExcluirTanques.g.cs
+C:\Users\arley\documents\visual studio 2013\Projects\ColetaDados Rasp\ColetaDados Rasp\obj\ARM\Debug\CRUD Tanques\CadastrarTanque.g.cs
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.pdb
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Assets\ApplicationIcon.png
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados Rasp.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados Rasp.pdb
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\resources.pri
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\AppxManifest.xml
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados Rasp.build.appxrecipe
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Properties\WMAppManifest.xml
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\AppManifest.xaml
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados_Rasp_Debug_ARM.xap
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Advertising.Mobile.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Advertising.Mobile.UI.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Advertising.Mobile.xml
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Sqlite.winmd
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\System.Windows.Interactivity.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\Sqlite.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\Bin\ARM\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.csprojResolveAssemblyReference.cache
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\App.g.cs
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\ConsultarDataDados.g.cs
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\ConsultarTanque.g.cs
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\DadosConsultados.g.cs
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\DadosDaLeitura.g.cs
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\CRUD Tanques\CadastrarTanque.g.cs
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\SelecionarTanque.g.cs
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\Home.g.cs
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.g.resources
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\ColetaDados_Rasp.Resources.AppResources.resources
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.csproj.GenerateResource.Cache
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\priconfig.xml
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\layout.resfiles
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\layout.resfiles.intermediate
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\resources.resfiles
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\pri.resfiles
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\qualifiers.txt
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\MDILProjectFiles.xml
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\XapCacheFile.xml
+C:\Users\maloca\Documents\Visual Studio 2013\Projects\mdg2-master\ColetaDados Rasp\obj\ARM\Debug\CRUD Tanques\AlterarExcluirTanques.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.pdb
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Assets\ApplicationIcon.png
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados Rasp.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados Rasp.pdb
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\resources.pri
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\AppxManifest.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados Rasp.build.appxrecipe
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Properties\WMAppManifest.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\AppManifest.xaml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados_Rasp_Debug_ARM.xap
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Advertising.Mobile.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Advertising.Mobile.UI.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Advertising.Mobile.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\AmCharts.Windows.QuickCharts.WP.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Sqlite.winmd
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\System.Windows.Interactivity.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Sqlite.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.csprojResolveAssemblyReference.cache
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\App.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\ConsultarDataDados.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\ConsultarTanque.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\CRUD Tanques\AlterarExcluirTanques.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\DadosConsultados.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\DadosDaLeitura.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\CRUD Tanques\CadastrarTanque.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\Graficos.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\SelecionarTanque.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\Home.g.cs
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.g.resources
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\ColetaDados_Rasp.Resources.AppResources.resources
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.csproj.GenerateResource.Cache
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\priconfig.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\layout.resfiles
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\layout.resfiles.intermediate
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\resources.resfiles
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\pri.resfiles
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\qualifiers.txt
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\MDILProjectFiles.xml
+C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\XapCacheFile.xml
