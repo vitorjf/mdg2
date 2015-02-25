@@ -12,7 +12,9 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
-    shell:SystemTray.IsVisible="True">
+    shell:SystemTray.IsVisible="True"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    >
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
@@ -29,26 +31,26 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="14,10,10,241">
-            <TextBlock Text="Nome do Tanque:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,29,186,277" FontSize="33" FontFamily="Narkisim"/>
-            <TextBlock Text="24/02.2015" x:Name="txtNomeTanque" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,29,10,357" FontSize="33" FontFamily="Narkisim" />
+            <TextBlock Text="Nome do Tanque:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,29,186,357" FontSize="28" FontFamily="Narkisim"/>
+            <TextBlock Text="24/02.2015" x:Name="txtNomeTanque" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,29,25,357" FontSize="28" FontFamily="Narkisim" />
 
-            <TextBlock Text="Data da Leitura:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,72,205,234" FontSize="33" FontFamily="Narkisim" />
-            <TextBlock Text="Data da Leitura:" x:Name="txtData" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,72,0,322" FontSize="33" FontFamily="Narkisim" HorizontalAlignment="Left" Width="142" />
+            <TextBlock Text="Data da Leitura:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,72,205,304" FontSize="28" FontFamily="Narkisim" />
+            <TextBlock Text="Data da Leitura:" x:Name="txtData" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,72,0,304" FontSize="28" FontFamily="Narkisim" HorizontalAlignment="Left" Width="142" />
 
-            <TextBlock Text="Hora da Leitura:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,125,205,181" FontSize="33" FontFamily="Narkisim"/>
-            <TextBlock Text="Hora da Leitura:" x:Name="txtHora" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,125,0,256" FontSize="33" FontFamily="Narkisim" />
+            <TextBlock Text="Hora da Leitura:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,125,205,256" FontSize="28" FontFamily="Narkisim"/>
+            <TextBlock Text="Hora da Leitura:" x:Name="txtHora" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,125,15,256" FontSize="28" FontFamily="Narkisim" />
 
-            <TextBlock Text="Temperatura da Água:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,221,137,159" FontSize="33" FontFamily="Narkisim" />
-            <TextBlock Text="Temperatura da Água:" x:Name="txtTemperatura" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,221,10,178" FontSize="33" FontFamily="Narkisim" />
+            <TextBlock Text="Temperatura da Água:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,221,137,154" FontSize="28" FontFamily="Narkisim" />
+            <TextBlock Text="Temperatura da Água:" x:Name="txtTemperatura" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,221,25,159" FontSize="28" FontFamily="Narkisim" />
 
-            <TextBlock Text="Nível de Oxigênio:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,270,186,105" FontSize="33" FontFamily="Narkisim" />
-            <TextBlock Text="Nível de Oxigênio:" x:Name="txtOxigenio" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,270,10,129" FontSize="33" FontFamily="Narkisim" />
+            <TextBlock Text="Nível de Oxigênio:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,270,186,100" FontSize="28" FontFamily="Narkisim" />
+            <TextBlock Text="Nível de Oxigênio:" x:Name="txtOxigenio" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,270,25,105" FontSize="28" FontFamily="Narkisim" />
 
-            <TextBlock Text="Turbidez:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,324,241,-18" FontSize="33" FontFamily="Narkisim" />
-            <TextBlock Text="Turbidez:" x:Name="txtTurbidez" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,324,10,67" FontSize="33" FontFamily="Narkisim" />
+            <TextBlock Text="Turbidez:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,324,241,57" FontSize="28" FontFamily="Narkisim" />
+            <TextBlock Text="Turbidez:" x:Name="txtTurbidez" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,324,25,57" FontSize="28" FontFamily="Narkisim" />
 
-            <TextBlock Text="PH:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,173,241,226" FontSize="33" FontFamily="Narkisim" />
-            <TextBlock Text="PH:" x:Name="txtPh" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,173,0,229" FontSize="33" FontFamily="Narkisim" />
+            <TextBlock Text="PH:" Style="{StaticResource PhoneTextNormalStyle}" Margin="10,173,241,208" FontSize="28" FontFamily="Narkisim" />
+            <TextBlock Text="PH:" x:Name="txtPh" Style="{StaticResource PhoneTextNormalStyle}" Margin="304,173,15,208" FontSize="28" FontFamily="Narkisim" />
         </Grid>
         <Button Content="Cadastrar" HorizontalAlignment="Left" Margin="63,434,0,0" Grid.Row="1" VerticalAlignment="Top" Width="348" Click="Cadastrar" Style="{StaticResource BotaoArredondado}" FontSize="30" FontFamily="Narkisim" >
             <i:Interaction.Triggers>
@@ -61,4 +63,26 @@
 
     </Grid>
 
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+    
+    
 </phone:PhoneApplicationPage>

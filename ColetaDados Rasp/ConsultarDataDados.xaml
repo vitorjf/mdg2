@@ -11,7 +11,9 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
-    shell:SystemTray.IsVisible="True">
+    shell:SystemTray.IsVisible="True"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    >
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
@@ -22,7 +24,7 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock FontFamily="Narkisim"  Text="nome do tanque" x:Name="nomeTanque" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock FontFamily="Narkisim"  Text="nome do tanque" x:Name="nomeTanque" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="48"/>
             <TextBlock FontFamily="Narkisim" FontSize="30" Text="Selecione uma leitura para &#xA;visualizar os dados" Style="{StaticResource PhoneTextNormalStyle}" Height="65" Margin="36,0,39,0"/>
         </StackPanel>
 
@@ -32,12 +34,34 @@
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <Grid Height="80" VerticalAlignment="Top">
-                            <Button Style="{StaticResource BotaoArredondado}" Content="{Binding Data}" HorizontalAlignment="Left" Margin="1,0,0,0" VerticalAlignment="Top" Height="80" Width="450" Click="Marks_button_click" FontFamily="Narkisim"/>
+                            <Button  FontSize="30" Style="{StaticResource BotaoArredondado}" Content="{Binding Data}" HorizontalAlignment="Left" Margin="1,0,0,0" VerticalAlignment="Top" Height="80" Width="450" Click="Marks_button_click" FontFamily="Narkisim"/>
                         </Grid>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
         </Grid>
     </Grid>
+
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
 
 </phone:PhoneApplicationPage>

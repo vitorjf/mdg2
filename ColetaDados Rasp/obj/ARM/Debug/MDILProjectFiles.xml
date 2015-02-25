@@ -15,6 +15,13 @@
     <File>Assets\Tiles\FlipCycleTileSmall.png</File>
     <File>Assets\Tiles\IconicTileMediumLarge.png</File>
     <File>Assets\Tiles\IconicTileSmall.png</File>
+    <File>README_FIRST.txt</File>
+    <File>texture-background-pattern-diamonds-light-shadow.jpg</File>
+    <File>Toolkit.Content\ApplicationBar.Add.png</File>
+    <File>Toolkit.Content\ApplicationBar.Cancel.png</File>
+    <File>Toolkit.Content\ApplicationBar.Check.png</File>
+    <File>Toolkit.Content\ApplicationBar.Delete.png</File>
+    <File>Toolkit.Content\ApplicationBar.Select.png</File>
     <File>AppManifest.xaml</File>
     <File>Assets\ApplicationIcon.png</File>
     <File>Assets\Tiles\FlipCycleTileMedium.png</File>
@@ -24,6 +31,7 @@
     <File>Microsoft.Advertising.Mobile.xml</File>
     <File>AmCharts.Windows.QuickCharts.WP.dll</File>
     <File>Microsoft.Expression.Interactions.dll</File>
+    <File>Microsoft.Phone.Controls.Toolkit.dll</File>
     <File>Sqlite.winmd</File>
     <File>System.Windows.Interactivity.dll</File>
     <File>Sqlite.dll</File>
