@@ -33,14 +33,16 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <!--BarChart-->
-            <amCharts:SerialChart x:Name="BarChart" 
+            <amCharts:SerialChart x:Name="LineChart1" DataSource="{Binding Data}"
                   Height="300" 
                   Width="400" 
                   CategoryValueMemberPath="Category" 
                   AxisForeground="White" 
                   PlotAreaBackground="Black">
                 <amCharts:SerialChart.Graphs>
-                    <amCharts:ColumnGraph Title="Title 1" ValueMemberPath="Value" Brush="Red"/>
+                    <amCharts:LineGraph Title="Line 1" ValueMemberPath="val1" Brush="Red" StrokeThickness="5"/>
+                    <amCharts:LineGraph Title="Line 2" ValueMemberPath="val2" Brush="Blue" StrokeThickness="5"/>
+                    <amCharts:LineGraph Title="Line 3" ValueMemberPath="val3" Brush="Yellow" StrokeThickness="5"/>
                 </amCharts:SerialChart.Graphs>
             </amCharts:SerialChart>
 

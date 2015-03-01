@@ -1,6 +1,6 @@
-﻿<xapCache source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados_Rasp_Debug_ARM.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="24/02/2015 21:27:22">
+﻿<xapCache source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\ColetaDados_Rasp_Debug_ARM.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="01/03/2015 07:32:54">
   <file source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="24/02/2015 21:22:06" />
-  <file source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.dll" archivePath="ColetaDados Rasp.dll" lastWriteTime="24/02/2015 21:27:18" />
+  <file source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\ColetaDados Rasp.dll" archivePath="ColetaDados Rasp.dll" lastWriteTime="01/03/2015 07:32:51" />
   <file source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="19/02/2015 14:37:48" />
   <file source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="19/02/2015 14:37:48" />
   <file source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="19/02/2015 14:37:48" />
@@ -35,6 +35,6 @@
   <file source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\packages\sqlite-net-wp8.3.8.5\build\windowsphone8\ARM\Sqlite.dll" archivePath="Sqlite.dll" lastWriteTime="19/02/2015 14:37:48" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\ExtensionSDKs\SQLite.WP80\3.8.7.4\Redist\Debug\ARM\sqlite3.dll" archivePath="sqlite3.dll" lastWriteTime="08/01/2015 19:51:34" />
   <file source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="21/02/2015 12:11:30" />
-  <file source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="24/02/2015 21:27:21" />
+  <file source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\obj\ARM\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="01/03/2015 07:32:54" />
   <file source="C:\Users\arley\Documents\Visual Studio 2013\Projects\ColetaDados Git\ColetaDados Rasp\Bin\ARM\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="24/02/2015 21:22:08" />
 </xapCache>

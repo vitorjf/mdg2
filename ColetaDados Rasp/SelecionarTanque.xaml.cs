@@ -42,19 +42,23 @@ namespace ColetaDados_Rasp
 
         private void Marks_button_click(object sender, RoutedEventArgs e)
         {
-            //Get the data object that represents the current selected item
             Tanques myobject = (sender as Button).DataContext as Tanques;
 
-            //Get the selected ListBoxItem container instance of the item whose marks button is pressed
             ListBoxItem pressedItem = this.mylistbox.ItemContainerGenerator.ContainerFromItem(myobject) as ListBoxItem;
 
-            //Checks whether it is not null
-            if (pressedItem != null)
+            if (valores[5] == null || valores[5].Equals(""))
             {
-                int idTanque = myobject.Id;
-                string uri = string.Format("/DadosDaLeitura.xaml?nomeTanque={0}&data={1}&hora={2}&turbidez={3}&ph={4}&temperatura={5}&oxigenio={6}&idTanque={7}",
-                   myobject.Nome, valores[0], valores[1], valores[2], valores[3], valores[4], valores[5], idTanque);
-                NavigationService.Navigate(new Uri(uri, UriKind.Relative));
+                MessageBox.Show("Problemas encontrados na conexão");
+            }
+            else
+            {
+                if (pressedItem != null)
+                {
+                    int idTanque = myobject.Id;
+                    string uri = string.Format("/DadosDaLeitura.xaml?nomeTanque={0}&data={1}&hora={2}&turbidez={3}&ph={4}&temperatura={5}&oxigenio={6}&idTanque={7}",
+                       myobject.Nome, valores[0], valores[1], valores[2], valores[3], valores[4], valores[5], idTanque);
+                    NavigationService.Navigate(new Uri(uri, UriKind.Relative));
+                }
             }
         }
 
@@ -72,6 +76,7 @@ namespace ColetaDados_Rasp
             {
                 i++;
             }
+            i--;
             i--;
             valores = linhas[i].Split(new Char [] {' '}, StringSplitOptions.RemoveEmptyEntries);
             sr.Close();

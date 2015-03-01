@@ -34,8 +34,8 @@ namespace ColetaDados_Rasp
             wc = new WebClient();
             wc.Headers[HttpRequestHeader.IfModifiedSince] = DateTime.UtcNow.ToString("o");
             wc.OpenReadCompleted += wc_OpenReadCompleted; //Esse método será chamado após o término do download
-//            wc.OpenReadAsync(new Uri("http://192.168.42.1/dados.txt", UriKind.Absolute)); //Identifica o endereço do arquivo para download
-            wc.OpenReadAsync(new Uri("http://172.22.10.41/dados.txt", UriKind.Absolute)); //Identifica o endereço do arquivo para download
+            wc.OpenReadAsync(new Uri("http://192.168.42.1/dados.txt", UriKind.Absolute)); //Identifica o endereço do arquivo para download
+           // wc.OpenReadAsync(new Uri("http://172.22.10.41/dados.txt", UriKind.Absolute)); //Identifica o endereço do arquivo para download
             
             
      

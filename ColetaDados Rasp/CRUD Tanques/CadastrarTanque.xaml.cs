@@ -51,7 +51,8 @@ namespace ColetaDados_Rasp
 
         private void Cadastrar(object sender, RoutedEventArgs e)
         {
-            if(nomeTanque != null){
+            if (nomeTanque != null)
+            {
                 tanque = dbConn.Table<Tanques>().Where(x => x.Id == id).FirstOrDefault();
                 tanque.Nome = txtBoxNome.Text;
                 tanque.InformacoesAdicionais = txtBoxInfo.Text;
@@ -60,19 +61,22 @@ namespace ColetaDados_Rasp
                 NavigationService.GoBack();
 
             }
+            else if (txtBoxNome.Text.Equals("") || txtBoxNome.Text == null)
+                {
+                    MessageBox.Show("O nome do tanque é obrigatório");
+                }
             else
             {
-                tanque = new Tanques()
-                {
-                    Nome = txtBoxNome.Text,
-                    InformacoesAdicionais = txtBoxInfo.Text
-                };
-                dbConn.Insert(tanque);
-                txtBoxNome.Text = String.Empty;
-                txtBoxInfo.Text = String.Empty;
-                MessageBox.Show("Tanque Cadastrado com Sucesso");
+                    tanque = new Tanques()
+                    {
+                        Nome = txtBoxNome.Text,
+                        InformacoesAdicionais = txtBoxInfo.Text
+                    };
+                    dbConn.Insert(tanque);
+                    txtBoxNome.Text = String.Empty;
+                    txtBoxInfo.Text = String.Empty;
+                    MessageBox.Show("Tanque Cadastrado com Sucesso");  
             }
-
            
         }
         
