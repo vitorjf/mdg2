@@ -55,10 +55,10 @@ namespace ColetaDados_Rasp
             txtData.Text = resultado.Data;
             txtHora.Text = resultado.Hora;
             txtNomeTanque.Text = tanque;
-            txtTemperatura.Text = resultado.Temperatura;
-            txtOxigenio.Text = resultado.Oxigenio;
-            txtTurbidez.Text = resultado.Turbidez;
-            txtPh.Text = resultado.Ph;
+            txtTemperatura.Text = resultado.Temperatura + " (°C)";
+            txtOxigenio.Text = resultado.Oxigenio + " (mg/L)";
+            txtTurbidez.Text = resultado.Turbidez + " (mV)";
+            txtPh.Text = resultado.Ph + " (pH)";
         }
     }
 }

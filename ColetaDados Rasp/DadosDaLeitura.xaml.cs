@@ -56,10 +56,10 @@ namespace ColetaDados_Rasp
             txtData.Text = data;
             txtHora.Text = hora;
             txtNomeTanque.Text = tanque;
-            txtTemperatura.Text = temperatura;
-            txtOxigenio.Text = oxigenio;
-            txtTurbidez.Text = turbidez;
-            txtPh.Text = ph;
+            txtTemperatura.Text = temperatura + " (°C)";
+            txtOxigenio.Text = oxigenio + " (mg/L)";
+            txtTurbidez.Text = turbidez + " (mV)";
+            txtPh.Text = ph + " (pH)";
         }
         private void Cadastrar(object sender, RoutedEventArgs e)
         {

@@ -21,9 +21,8 @@ namespace ColetaDados_Rasp
         public Home()
         {
             InitializeComponent();
-            
-            
         }
+
         WebClient wc;
         
         private void btnObterDados(object sender, RoutedEventArgs e)
@@ -35,7 +34,7 @@ namespace ColetaDados_Rasp
             wc.Headers[HttpRequestHeader.IfModifiedSince] = DateTime.UtcNow.ToString("o");
             wc.OpenReadCompleted += wc_OpenReadCompleted; //Esse método será chamado após o término do download
             wc.OpenReadAsync(new Uri("http://192.168.42.1/dados.txt", UriKind.Absolute)); //Identifica o endereço do arquivo para download
-           // wc.OpenReadAsync(new Uri("http://172.22.10.41/dados.txt", UriKind.Absolute)); //Identifica o endereço do arquivo para download
+         //   wc.OpenReadAsync(new Uri("http://172.22.10.41/dados.txt", UriKind.Absolute)); //Identifica o endereço do arquivo para download
             
             
      
@@ -62,11 +61,11 @@ namespace ColetaDados_Rasp
                     resolveVisibilidade();
 
                 }
-                MessageBox.Show("Conectado");
+                MessageBox.Show("Busca Concluída");
             }
             else
             {
-                MessageBox.Show("Erro na conexão");
+                MessageBox.Show("Erro na conexão, por favor verifique se o coletor está ligado e se o seu celular está conectado ao coletor pela rede sem fio");
             }
             
         }

@@ -33,13 +33,13 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Button Content="Conectar" Name="btConectar" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top" Width="229" Click="btnObterDados" Height="163" Grid.RowSpan="2"
-                IsEnabled="False" Style="{StaticResource BotaoArredondado}" FontSize="31" FontFamily="Narkisim" Grid.ColumnSpan="3"/>
+        <Button Content="Buscar&#xD;&#xA;Dados" Name="btConectar" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top" Width="229" Click="btnObterDados" Height="163" Grid.RowSpan="2"
+                IsEnabled="False" Style="{StaticResource BotaoArredondado}" FontSize="29" FontFamily="Narkisim" Grid.ColumnSpan="3"/>
 
         <TextBlock HorizontalAlignment="Left" Margin="29,33,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Menu" VerticalAlignment="Top" Height="87" Width="356"
                    FontSize="48" FontFamily="Narkisim" Grid.ColumnSpan="3" />
         <Button Name="btRealizar"  Content="Realizar &#xD;&#xA; Leitura" HorizontalAlignment="Left" Margin="239,125,0,0" VerticalAlignment="Top" Width="219" Height="163" Grid.RowSpan="2"
-                IsEnabled="False" Style="{StaticResource BotaoArredondado}" FontSize="31" FontFamily="Narkisim" Grid.Column="2">
+                IsEnabled="False" Style="{StaticResource BotaoArredondado}" FontSize="29" FontFamily="Narkisim" Grid.Column="2">
             <i:Interaction.Triggers>
                 <i:EventTrigger EventName="Click">
                     <ec:NavigateToPageAction TargetPage="/SelecionarTanque.xaml"/>
@@ -48,7 +48,7 @@
         </Button>
         
         <Button Name="btnCadastrar" Content="Cadastrar&#xD;&#xA; Tanques" HorizontalAlignment="Left" Margin="10,324,0,0" VerticalAlignment="Top" Width="229"  Height="163" Grid.RowSpan="2" Click="Button_cadastrar"
-                Style="{StaticResource BotaoArredondado}" FontSize="31" FontFamily="Narkisim" Grid.ColumnSpan="3" Opacity="1" >
+                Style="{StaticResource BotaoArredondado}" FontSize="29" FontFamily="Narkisim" Grid.ColumnSpan="3" Opacity="1" >
             <i:Interaction.Triggers>
                 <i:EventTrigger EventName="Click">
                     <ec:NavigateToPageAction TargetPage="/CRUD Tanques/CadastrarTanque.xaml"/>
@@ -56,7 +56,7 @@
             </i:Interaction.Triggers>
         </Button>
         <Button Content="Alterar/Excluir &#xD;&#xA;     Tanques"   Name="btExcluit" HorizontalAlignment="Left" Margin="239,324,0,0" VerticalAlignment="Top" Width="229"  Height="163" Grid.RowSpan="2"
-             IsEnabled="False" Style="{StaticResource BotaoArredondado}" FontSize="31" FontFamily="Narkisim" Grid.Column="2">
+             IsEnabled="False" Style="{StaticResource BotaoArredondado}" FontSize="29" FontFamily="Narkisim" Grid.Column="2">
             <i:Interaction.Triggers>
                 <i:EventTrigger EventName="Click">
                     <ec:NavigateToPageAction TargetPage="/CRUD Tanques/AlterarExcluirTanques.xaml"/>
@@ -64,7 +64,7 @@
             </i:Interaction.Triggers>
         </Button>
         <Button Content="Consultar Leituras" Name="btConsultar"  HorizontalAlignment="Left" Margin="10,523,0,0" VerticalAlignment="Top" Width="460"  Height="163" Grid.RowSpan="2"
-               IsEnabled="False" Style="{StaticResource BotaoArredondado}" FontSize="31" FontFamily="Narkisim" Grid.ColumnSpan="3">
+               IsEnabled="False" Style="{StaticResource BotaoArredondado}" FontSize="29" FontFamily="Narkisim" Grid.ColumnSpan="3">
             <i:Interaction.Triggers>
                 <i:EventTrigger EventName="Click">
                     <ec:NavigateToPageAction TargetPage="/ConsultarTanque.xaml"/>
