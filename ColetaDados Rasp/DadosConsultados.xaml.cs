@@ -10,6 +10,7 @@ using Microsoft.Phone.Shell;
 using SQLite;
 using System.IO;
 using Windows.Storage;
+using System.Windows.Media;
 
 namespace ColetaDados_Rasp
 {
@@ -35,7 +36,7 @@ namespace ColetaDados_Rasp
                 idTanque = Convert.ToInt32(NavigationContext.QueryString["idTanque"]);
                 LerBanco();
             }
-
+            txtOxigenio.Foreground = new SolidColorBrush(Colors.Green);
             setaDadosNaTela();
 
 
@@ -55,9 +56,9 @@ namespace ColetaDados_Rasp
             txtData.Text = resultado.Data;
             txtHora.Text = resultado.Hora;
             txtNomeTanque.Text = tanque;
-            txtTemperatura.Text = resultado.Temperatura + " (°C)";
-            txtOxigenio.Text = resultado.Oxigenio + " (mg/L)";
-            txtTurbidez.Text = resultado.Turbidez + " (mV)";
+            txtTemperatura.Text = resultado.Temperatura + " °C";
+            txtOxigenio.Text = resultado.Oxigenio + " mg/L";
+            txtTurbidez.Text = resultado.Turbidez + " mV";
             txtPh.Text = resultado.Ph + " (pH)";
         }
     }

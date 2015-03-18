@@ -33,8 +33,13 @@
             <TextBlock Text="Nome do Tanque:" FontSize="29.333" FontFamily="Narkisim" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,9,12,-9"/>
             <TextBox Name="txtBoxNome" HorizontalAlignment="Left" Height="72" Margin="12,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="396"/>
 
-            <TextBlock Text="Informações Adicionais:" FontSize="29.333" FontFamily="Narkisim" Style="{StaticResource PhoneTextNormalStyle}" Margin="14,132,10,-132"/>
-            <TextBox Name="txtBoxInfo" HorizontalAlignment="Left" Height="156" Margin="14,159,0,360" TextWrapping="Wrap" Width="394"/>
+            <TextBlock Text="Selecione o tipo de peixe:" FontSize="29.333" FontFamily="Narkisim" Style="{StaticResource PhoneTextNormalStyle}" Margin="14,132,10,-132"/>
+          <!--  <TextBox Name="txtBoxInfo" HorizontalAlignment="Left" Height="156" Margin="14,159,0,360" TextWrapping="Wrap" Width="394"/> -->
+            <toolkit:ListPicker x:Name="txtBoxInfo" Margin="24,162,58,-138"  Width="374">
+                <toolkit:ListPickerItem Content="1-Tambaqui" Margin="0,0,27,0" />
+                <toolkit:ListPickerItem Content="2-Matrinchã" />
+                <toolkit:ListPickerItem Content="3-Pirarucu" />
+            </toolkit:ListPicker>
 
             <Button Name="btnCadastrar" FontSize="30" FontFamily="Narkisim" Content="Cadastrar Tanque" HorizontalAlignment="Left" Margin="14,380,0,0" VerticalAlignment="Top" Width="414" Click="Cadastrar" Style="{StaticResource BotaoArredondado}"/>
         </Grid>

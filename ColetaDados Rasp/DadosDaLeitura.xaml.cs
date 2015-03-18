@@ -10,6 +10,7 @@ using Microsoft.Phone.Shell;
 using SQLite;
 using System.IO;
 using Windows.Storage;
+using System.Windows.Media;
 
 
 namespace ColetaDados_Rasp
@@ -17,6 +18,7 @@ namespace ColetaDados_Rasp
     public partial class Page1 : PhoneApplicationPage
     {
         private SQLiteConnection dbConn = new SQLiteConnection(Home.DB_PATH);
+        private Tanques resultado;
 
         public Page1()
         {
@@ -28,6 +30,7 @@ namespace ColetaDados_Rasp
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            
             dbConn.CreateTable<Dados>();
             recuperaDadosTelaAnterior();
             setaDadosNaTela();
@@ -47,6 +50,22 @@ namespace ColetaDados_Rasp
                 turbidez = NavigationContext.QueryString["turbidez"];
                 ph = NavigationContext.QueryString["ph"];
                 idDoTanque = Convert.ToInt32(NavigationContext.QueryString["idTanque"]);
+                var query = dbConn.Table<Tanques>().Where(x => x.InformacoesAdicionais == idDoTanque.ToString());
+                resultado = query.FirstOrDefault();
+            }
+
+            switch (Convert.ToInt32(resultado.InformacoesAdicionais)){
+                case 1:
+                    txtOxigenio.Foreground = new SolidColorBrush(Colors.Green);
+                    break;
+                case 2:
+                    txtOxigenio.Foreground = new SolidColorBrush(Colors.Blue);
+                    break;
+                case 3:
+                    txtOxigenio.Foreground = new SolidColorBrush(Colors.Red);
+                    break;
+
+                
             }
 
         }
@@ -56,9 +75,9 @@ namespace ColetaDados_Rasp
             txtData.Text = data;
             txtHora.Text = hora;
             txtNomeTanque.Text = tanque;
-            txtTemperatura.Text = temperatura + " (°C)";
-            txtOxigenio.Text = oxigenio + " (mg/L)";
-            txtTurbidez.Text = turbidez + " (mV)";
+            txtTemperatura.Text = temperatura + " °C";
+            txtOxigenio.Text = oxigenio + " mg/L";
+            txtTurbidez.Text = turbidez + " mV";
             txtPh.Text = ph + " (pH)";
         }
         private void Cadastrar(object sender, RoutedEventArgs e)

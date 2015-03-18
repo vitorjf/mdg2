@@ -33,7 +33,7 @@ namespace ColetaDados_Rasp
                 informacoes = NavigationContext.QueryString["informacoesAdicionais"];
                 id = Convert.ToInt32(NavigationContext.QueryString["objeto"]);
                 btnCadastrar.Content = "Alterar";
-                txtBoxInfo.Text = informacoes;
+                txtBoxInfo.SelectedIndex = Convert.ToInt32(informacoes); // tenho que testar depois
                 txtBoxNome.Text = nomeTanque;
             } 
 
@@ -55,7 +55,8 @@ namespace ColetaDados_Rasp
             {
                 tanque = dbConn.Table<Tanques>().Where(x => x.Id == id).FirstOrDefault();
                 tanque.Nome = txtBoxNome.Text;
-                tanque.InformacoesAdicionais = txtBoxInfo.Text;
+                tanque.InformacoesAdicionais = txtBoxInfo.SelectedIndex.ToString();
+;
                 dbConn.Update(tanque);
                 MessageBox.Show("Tanque Alterado com Sucesso");
                 NavigationService.GoBack();
@@ -70,11 +71,11 @@ namespace ColetaDados_Rasp
                     tanque = new Tanques()
                     {
                         Nome = txtBoxNome.Text,
-                        InformacoesAdicionais = txtBoxInfo.Text
+                        InformacoesAdicionais = txtBoxInfo.SelectedIndex.ToString()
                     };
                     dbConn.Insert(tanque);
                     txtBoxNome.Text = String.Empty;
-                    txtBoxInfo.Text = String.Empty;
+//                    txtBoxInfo.Text = String.Empty;
                     MessageBox.Show("Tanque Cadastrado com Sucesso");  
             }
            
