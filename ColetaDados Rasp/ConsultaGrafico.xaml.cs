@@ -7,65 +7,52 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using System.Collections.ObjectModel;
 using SQLite;
 
 namespace ColetaDados_Rasp
 {
-    public partial class Graficos : PhoneApplicationPage
+    public partial class ConcultaGrafico : PhoneApplicationPage
     {
         private SQLiteConnection dbConn = new SQLiteConnection(Home.DB_PATH);
         List<string> meses = new List<string>();
-        public Graficos()
+        List<mes> mesw = new List<mes>();
+
+        public ConcultaGrafico()
         {
             InitializeComponent();
-            
         }
-
-        public ObservableCollection<LineChart> Data = new ObservableCollection<LineChart>() {
-         //   new BarData() { Category = "Label 1", Value = 30 },
-          new LineChart() { Category = "L1", val1=5, val2=15, val3=12},
-        new LineChart() { Category = "L2", val1=15.2, val2=1.5, val3=2},
-        new LineChart() { Category = "L3", val1=25, val2=5, val3=2}
-            
-    };
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            LineChart1.DataSource = Data;
-        }
-
-        public class BarData
-        {
-            public string Category { get; set; }
-            public double Value { get; set; }
-        }
-
-        private void listar()
-        {
+            mylistbox.Items.Clear();
+            /// Traz uma lista de tanques do banco de dados
             List<Dados> teste = dbConn.Table<Dados>().ToList<Dados>();
-           
-            for (int i = 0; i < teste.Count; i++ )
+
+            for (int i = 0; i < teste.Count; i++)
             {
-                string[] abc = teste[i].Data.Split(new Char[] {'/'});
+                string[] abc = teste[i].Data.Split(new Char[] { '/' });
                 switch (abc[1])
                 {
                     case "1":
                         if (!meses.Contains("Janeiro de " + abc[2]))
                         {
                             meses.Add("Janeiro de " + abc[2]);
+                            mesw.Add(new mes { Nome = "Janeiro de " + abc[2] });
+                            
                         }
                         break;
                     case "2":
                         if (!meses.Contains("Fevereiro de " + abc[2]))
                         {
                             meses.Add("Fevereiro de " + abc[2]);
+                            mesw.Add(new mes { Nome = "Fevereiro de " + abc[2] });
                         }
                         break;
                     case "3":
-                        if(!meses.Contains("Março de " + abc[2]))
+                        if (!meses.Contains("Março de " + abc[2]))
                         {
                             meses.Add("Março de " + abc[2]);
+                            mesw.Add(new mes { Nome = "Março de " + abc[2] });
                         }
                         break;
                     case "4":
@@ -109,7 +96,7 @@ namespace ColetaDados_Rasp
                         {
                             meses.Add("Outubro de " + abc[2]);
                         }
-                        
+
                         break;
                     case "11":
                         if (!meses.Contains("Novembro de " + abc[2]))
@@ -118,34 +105,44 @@ namespace ColetaDados_Rasp
                         }
                         break;
                     case "12":
-                        if(!meses.Contains("Dezembro de " + abc[2]))
+                        if (!meses.Contains("Dezembro de " + abc[2]))
                         {
                             meses.Add("Dezembro de " + abc[2]);
+                            mesw.Add(new mes { Nome = "Dezembro de " + abc[2] });
                         }
                         break;
 
                 }
+                
             }
+            foreach (var t in mesw)
+            {
+                mylistbox.Items.Add(t);
 
-            
+            }
+            MessageBox.Show(mesw.Count().ToString());
         }
 
-        public class LineChart
+        private void ListClick(object sender, RoutedEventArgs e)
         {
-            public string Category { get; set; }
-            public double val1 { get; set; }
-            public double val2 { get; set; }
-            public decimal val3 { get; set; }
+            {
+                Tanques myobject = (sender as Button).DataContext as Tanques;
+
+                ListBoxItem pressedItem = this.mylistbox.ItemContainerGenerator.ContainerFromItem(myobject) as ListBoxItem;
+                    if (pressedItem != null)
+                    {
+         /*               int idTanque = myobject.Id;
+                        string uri = string.Format("/DadosDaLeitura.xaml?nomeTanque={0}&data={1}&hora={2}&turbidez={3}&ph={4}&temperatura={5}&oxigenio={6}&idTanque={7}",
+                           myobject.Nome, valores[0], valores[1], valores[2], valores[3], valores[4], valores[5], idTanque);
+                        NavigationService.Navigate(new Uri(uri, UriKind.Relative));*/
+                    }
+                
+            }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        protected sealed class mes
         {
-            listar();
-            MessageBox.Show(meses[1]);
+            public string Nome { get; set; }
         }
-
-
-
-
     }
 }

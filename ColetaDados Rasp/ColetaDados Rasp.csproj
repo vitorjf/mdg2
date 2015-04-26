@@ -97,6 +97,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ConsultaGrafico.xaml.cs">
+      <DependentUpon>ConsultaGrafico.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ConsultarDataDados.xaml.cs">
       <DependentUpon>ConsultarDataDados.xaml</DependentUpon>
     </Compile>
@@ -140,6 +143,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="ConsultaGrafico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ConsultarDataDados.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

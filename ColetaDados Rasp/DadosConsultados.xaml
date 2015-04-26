@@ -55,7 +55,7 @@
         <Button FontSize="30" Style="{StaticResource ResourceKey=BotaoArredondado}" Content="Gráfico" HorizontalAlignment="Left" Margin="162,457,0,0" Grid.Row="1" VerticalAlignment="Top" Height="84" Width="175">
             <i:Interaction.Triggers>
                 <i:EventTrigger EventName="Click">
-                    <ec:NavigateToPageAction TargetPage="/Graficos.xaml"/>
+                    <ec:NavigateToPageAction TargetPage="/ConsultaGrafico.xaml"/>
                 </i:EventTrigger>
             </i:Interaction.Triggers>
         </Button>

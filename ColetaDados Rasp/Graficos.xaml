@@ -45,6 +45,7 @@
                     <amCharts:LineGraph Title="Line 3" ValueMemberPath="val3" Brush="Yellow" StrokeThickness="5"/>
                 </amCharts:SerialChart.Graphs>
             </amCharts:SerialChart>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="84,490,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 
 
         </Grid>
